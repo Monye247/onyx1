@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    width: 100%;
+    height: auto;
+    background: white;
+}
+
+.navbar{
+    width: 100%;
+    height: 40px;
+    background: yellow;
+    position: fixed;
+    z-index: 1;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    position: relative;
+    top: 14px;
+    justify-content: center
+}
+
+ul a{
+    text-decoration: none;
+    margin: 40px;
+    color: darkslategray;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.home-section{
+    width: 100%;
+    height: 650px;
+    background-color: rgb(246, 242, 250);
+    background-image: url(images/schoolpics.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.overlay{
+    width: 100%;
+    height: 650px;
+    background-color:rgb(58, 56, 56)
+}
+
+.overlay h1{
+    font-size: 75px;
+    color: white;
+    text-shadow: 0 0 1px darkslategrey;
+    text-align: left;
+    position: relative;
+    top: 180px;
+    left: 100px;
+}
+
+.overlay h3{
+    text-align: left;
+    position: relative;
+    top: 185px;
+    color: white;
+    font-size: 25px;
+    left: 100px;
+}
+
+.overlay button{
+    width: 180px;
+    height: 55px;
+    background: yellow;
+    border: 1px solid yellow;
+    color: rgba(59, 55, 55, 0.493);
+    font-weight: bold;
+    font: 23px;
+    font-size: large;
+    border-radius: 10px;
+    position: relative;
+    justify-content: center;
+    top: 200px;
+    left: 170px;
+    cursor: pointer;
+}
+
+.overlay button:hover{
+    background: yellow;
+    color: rgb(40, 46, 46);
+    font-weight: bold;
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+    border: 3px solid yellow;
+}
+
+.about-section{
+    width: 100%;
+    height: 100vh;
+    background: rgba(136, 133, 133, 0.555);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+.about-section h1{
+    position: relative;
+    top: 10px;
+}
+.card1{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid white;
+    border-radius: 25px;
+}
+.card2{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid white;
+    border-radius: 25px;
+}
+.card3{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid white;
+    border-radius: 25px;
+}
+#bts1{
+    text-align: center;
+    color: rgb(36, 35, 35);
+    position: relative;
+    font-size: 40px;
+}
+#ps1{
+    width: 250px;
+    height: 60px;
+    background: yellow;
+    border: 1px solid white;
+    color: rgb(54, 59, 59);
+    font: 18px;
+    border-radius: 15px;
+    position: relative;
+    top: 120px;
+    left: 20px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.about-section p{
+    color: aquamarine;
+    font-size: 30px;
+    width: 500px;
+    position: relative;
+    top: 120px;
+    left: 400px;
+    text-align: center;
+}
+
+.services-section{
+    width: 100%;
+    height: 650px;
+    background: white;
+}
+
+.services-section h1{
+    color: rgb(82, 78, 78);
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+    top: 70px;
+}
+.services-section h2{
+    color: rgb(95, 93, 93);
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 70px;
+}
+.services-section p{
+    color: aquamarine;
+    font-size: 30px;
+    width: 700px;
+    position: relative;
+    top: 120px;
+    left: 400px;
+    text-align: center;
+}
+.bliss ol{
+    width: 100%;
+    text-align: center;
+    height: 230px;
+    font-size: 40px;
+    position: relative;
+    color: rgb(60, 68, 68);
+    top: 150px;
+    list-style: none;
+    left: 40px;
+}
+a{
+    text-decoration: none;
+    color: rgb(56, 54, 54);
+    margin: 30px;
+}
+
+.contact-section{
+    width: 100%;
+    height: 650px;
+    background: rgb(250, 239, 212);
+}
+
+.contact-section h1{
+    color: gray;
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+    top: 70px;
+}
+
+.contact-section p{
+    color: aquamarine;
+    font-size: 30px;
+    width: 700px;
+    position: relative;
+    top: 120px;
+    left: 400px;
+    text-align: center;
+}
+
+.footer-section{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(238, 223, 223)
+}
+
+.footer-section h3{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
